@@ -1,0 +1,412 @@
+body{
+}
+.main_container{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.menu-container{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    height: 100px;
+}
+.menu
+{
+ min-width: 200px;   
+ color: white;
+ font-size: 1.5em;
+ text-align: center;
+ padding-top: 40px;
+}
+.image_container{
+    display: flex;
+    position: relative;
+    text-align: center;
+    
+}
+#banner-image{
+    width: 100%;
+    opacity: 0.35;
+}
+.name{
+    position: absolute;
+    top: 30%;
+    left:37%;
+    font-size: 5em;
+}
+.ABOUT{
+    position: absolute;
+    top: 40%;
+    left:38%;
+    font-size: 2em;
+    
+}
+.skill_heading{
+    display: flex;
+    height: 100px;
+    widows: 100%;
+    color: black;
+    background-color: white;
+    font-size: 2em;
+    margin-bottom: 150px;
+
+    width: 100%;
+    font-weight: bold;
+    
+}
+.skill_title{
+    margin-left: 45%;
+    margin-top: 155px;
+    
+}
+.skills_container{
+    display: flex;
+    width: 100%; 
+    justify-content: center;
+    height: 350px;
+    margin-top: 50px;
+    flex-direction: row;
+    margin-left: auto;
+    transition: all 1s;
+}
+.skills_container:hover{
+    transform: scale(1.1);
+}
+
+
+.skills_container1{
+    display: flex;
+    width: 100%; 
+    justify-content: center;
+    height: 350px;
+    margin-top: 20px;
+    flex-direction: row;
+    margin-left: auto;
+    transition: all 1s;
+    
+}
+.skills_container1:hover{
+    transform: scale(1.1);
+}
+
+#image{
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+
+    
+}
+
+
+#skill_text {
+
+    color: black;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.skill1{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    transition: all 1s;
+    
+}
+
+
+.skill2{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    transition: all 1s;
+    
+    
+}
+.skill3{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    transition: all 1s;
+    
+    
+}
+.skill4{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    transition: all 1s;
+    
+    
+}
+.skill5{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    transition: all 1s;
+    
+    
+}
+.skill6{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    transition: all 1s;
+    
+    
+}
+.skill7{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    transition: all 1s;
+    
+    
+}
+
+.skill1:hover,.skill2:hover,.skill3:hover,.skill4:hover,.skill5:hover,.skill6:hover,.skill7:hover{
+    transform: scale(1.1);
+
+}
+
+.software_heading{
+    display: flex;
+    height: 100px;
+    widows: 100%;
+    color: black;
+    background-color: white;
+    font-size: 2em;
+    margin-bottom: 150px;
+
+    width: 100%;
+    font-weight: bold;
+    
+}
+.software_title{
+    margin-left: 45%;
+    margin-top: 155px;
+    
+}
+.software_container{
+    display: flex;
+    width: 100%; 
+    justify-content: center;
+    height: 350px;
+    margin-top: 20px;
+    flex-direction: row;
+    margin-left: auto;
+    transition: all 1s;
+}
+.software_container:hover{
+    transform: scale(1.1);
+}
+.software_container1{
+    display: flex;
+    width: 100%; 
+    justify-content: center;
+    height: 350px;
+    margin-top: 20px;
+    flex-direction: row;
+    margin-left: auto;
+    transition: all 1s;
+}
+.software_container1:hover{
+    transform: scale(1.1);
+}
+#software_text{
+
+    color: black;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 2em;
+    transition: all 1s;
+}
+.software1{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    transition: all 1s;
+    
+}
+.software2{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    transition: all 1s;
+    
+}
+.software3{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    transition: all 1s;
+    
+}
+.software4{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    transition: all 1s;
+    
+}
+.software5{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    transition: all 1s;
+    
+}
+.software6{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    transition: all 1s;
+    
+}
+.software7{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    transition: all 1s;
+    
+}
+.software8{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    transition: all 1s;
+}
+.software9{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    transition: all 1s;
+    
+}
+.software1:hover,.software2:hover,.software3:hover,.software4:hover,.software5:hover,.software6:hover,.software7:hover,.software8:hover,.software9:hover{
+    transform: scale(1.1);
+
+}
+
+.portfolio_heading{
+    display: flex;
+    height: 100px;
+    widows: 100%;
+    color: black;
+    background-color: white;
+    font-size: 2em;
+    margin-bottom: 150px;
+
+    width: 100%;
+    font-weight: bold;
+    
+}
+.portfolio_title{
+    margin-left: 45%;
+    margin-top: 155px;
+    
+}
+hr{
+    width: 75%;
+    align-self: center;
+
+}
+.portfolio_container{
+    display: flex;
+    width: 100%; 
+    justify-content: center;
+    height: 800px;
+    margin-top: 20px;
+    flex-direction: row;
+    margin-left: auto;
+    
+}
+#portfolioimg{
+    
+    width: 300px;
+    height: 400px;
+    margin-right: 50px;
+
+}
+.portfolio1{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    
+}
+.portfolio_description{
+    margin-left: 20px;
+}
+.portfolio_name{
+    font-size: 2em;
+    margin-left: 100px;
+    
+}
+.portfolio_info{
+    font-size: 1em;
+    margin-left: 100px;
+    color: gray;
+    
+}
+.portfolio2{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    
+}
+.about_me{
+    width: 100%;
+    position: relative;
+    
+}
+.fakeimg {
+    background-color: #aaa;
+    padding: 20px;
+  }
+.about_photo{
+    padding: 20px;
+    display: flex;
+  }
+  #profile_picture{
+      padding: 20px ;
+      
+  }
+.about_me{
+    font-weight: bold;
+    font-size: larger;
+
+}
+.contact_info{
+    justify-content: center;
+    background-color: grey;
+    flex-wrap: wrap;
+}
+
+.subheading{
+    font-variant-caps: all-small-caps;
+    font-weight: bolder;
+    font-size: 1.25em;
+
+}
+p{
+    position: relative;
+    left:40%;
+}
