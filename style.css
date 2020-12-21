@@ -2,6 +2,7 @@ body{
 }
 .main_container{
     font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
     
 }
 .menu-container{
@@ -59,123 +60,42 @@ body{
     margin-top: 155px;
     
 }
-.skills_container{
-    display: flex;
-    width: 100%; 
-    justify-content: center;
-    height: 350px;
+.skills_container, .software_container{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(min-content, 500px));
+    grid-template-rows: 1fr;
+    width: 100%;     
     margin-top: 50px;
-    flex-direction: row;
     margin-left: auto;
     transition: all 1s;
+    row-gap: 10px;
 }
-.skills_container:hover{
-    transform: scale(1.1);
+.skills_container:hover, .software_container:hover{
+     transform: scale(1.1); 
 }
-
-
-.skills_container1{
-    display: flex;
-    width: 100%; 
-    justify-content: center;
-    height: 350px;
-    margin-top: 20px;
-    flex-direction: row;
-    margin-left: auto;
-    transition: all 1s;
-    
-}
-.skills_container1:hover{
-    transform: scale(1.1);
-}
-
 #image{
     width: 150px;
     height: 150px;
-    margin-right: 50px;
-
-    
+    margin-right: 50px;    
 }
-
-
 #skill_text {
-
     color: black;
     margin-top: 30px;
     font-weight: bold;
     font-size: 2em;
+    width: min-content;
 }
-
-.skill1{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
-    transition: all 1s;
+.skill1,.skill2,.skill3,.skill4,.skill5,.skill6,.skill7,.software1,.software2,.software3,.software4,.software5,.software6,.software7,.software8,.software9{
+    display: grid;
+    grid-template-columns:repeat(2, minmax(min-content, 1fr));
     
 }
 
-
-.skill2{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
-    transition: all 1s;
-    
-    
-}
-.skill3{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
-    transition: all 1s;
-    
-    
-}
-.skill4{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
-    transition: all 1s;
-    
-    
-}
-.skill5{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
-    transition: all 1s;
-    
-    
-}
-.skill6{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
-    transition: all 1s;
-    
-    
-}
-.skill7{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
-    transition: all 1s;
-    
-    
-}
-
-.skill1:hover,.skill2:hover,.skill3:hover,.skill4:hover,.skill5:hover,.skill6:hover,.skill7:hover{
-    transform: scale(1.1);
+.skill1:hover,.skill2:hover,.skill3:hover,.skill4:hover,.skill5:hover,.skill6:hover,.skill7:hover,
+.software1:hover,.software2:hover,.software3:hover,.software4:hover,.software5:hover,.software6:hover,.software7:hover,.software8:hover,.software9:hover{
+     transform: scale(0.91); 
 
 }
-
 .software_heading{
     display: flex;
     height: 100px;
@@ -194,32 +114,6 @@ body{
     margin-top: 155px;
     
 }
-.software_container{
-    display: flex;
-    width: 100%; 
-    justify-content: center;
-    height: 350px;
-    margin-top: 20px;
-    flex-direction: row;
-    margin-left: auto;
-    transition: all 1s;
-}
-.software_container:hover{
-    transform: scale(1.1);
-}
-.software_container1{
-    display: flex;
-    width: 100%; 
-    justify-content: center;
-    height: 350px;
-    margin-top: 20px;
-    flex-direction: row;
-    margin-left: auto;
-    transition: all 1s;
-}
-.software_container1:hover{
-    transform: scale(1.1);
-}
 #software_text{
 
     color: black;
@@ -228,81 +122,9 @@ body{
     font-size: 2em;
     transition: all 1s;
 }
-.software1{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
-    transition: all 1s;
-    
-}
-.software2{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
-    transition: all 1s;
-    
-}
-.software3{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
-    transition: all 1s;
-    
-}
-.software4{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
-    transition: all 1s;
-    
-}
-.software5{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
-    transition: all 1s;
-    
-}
-.software6{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
-    transition: all 1s;
-    
-}
-.software7{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
-    transition: all 1s;
-    
-}
-.software8{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
-    transition: all 1s;
-}
-.software9{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
-    transition: all 1s;
-    
-}
-.software1:hover,.software2:hover,.software3:hover,.software4:hover,.software5:hover,.software6:hover,.software7:hover,.software8:hover,.software9:hover{
-    transform: scale(1.1);
 
-}
+    
+
 
 .portfolio_heading{
     display: flex;
